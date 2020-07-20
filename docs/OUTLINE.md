@@ -62,7 +62,7 @@
 
 - Verificar se `const x = 8` é par usando operadores binários.
 - Qual é a diferença entre `1 == "1a"`, `1 == "1"` e `1 === "1"`?
-- Qual é o resultado data expressão `10 > x < 20` para `const x = 15`? Explique.
+- Qual é o resultado da expressão `10 > x < 20` para `const x = 15`? Explique.
 - Considerando que cor no formato ARGB (8 bits para Alfa, Vermelho, Verde e Azul, nessa ordem) seja guardado em `const color = 0x74C365`, então qual seria a intensidade da cor vermelha?
 
 ## \# 03 - Algoritmos básicos no Javascript
@@ -83,7 +83,7 @@
 **Exercício:**
 
 - Crie o algoritmo de [Body Mass Index (BMI) (ecma/basic-bmi)](https://ifpb.github.io/exercises/problems/algorithms/basic-bmi/) usando `if` e `switch`;
-- Crie o algoritmo para exibir a séria de [00 até 99 (ecma/basic-numbers-series)](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`;
+- Crie o algoritmo para exibir a série de [00 até 99 (ecma/basic-numbers-series)](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`;
 - Crie os algoritmos:
   - [IRRF 2017 (ecma/basic-irrf/)](https://ifpb.github.io/exercises/problems/algorithms/basic-irrf/)
   - [Numbers series (ecma/basic-numbers-series/)](https://ifpb.github.io/exercises/problems/algorithms/basic-numbers-series/)
@@ -167,7 +167,7 @@
 **Reflexão:**
 
 - Que tipo de dados permite armazenar vários valores em uma variável, e em várias dimensões?
-- Como criarmos e manipulamos Arrays no Javascript?
+- Como criamos e manipulamos Arrays no Javascript?
 - Qual é a implicação dos índices poderem ser do tipo String?
 - Como comparamos dois Arrays?
 - Como sabemos se um Array está vazio?
@@ -237,7 +237,7 @@
 - O que é um callback? Qual é a finalidade de passar uma função para um parâmetro de função?
 - Como funciona as ações de iteração do Array?
 - É possível filtrar elementos de um Array?
-- É possível encandear vários métodos de interação em um Array?
+- É possível encadear vários métodos de interação em um Array?
 
 **Exercício:**
 
@@ -350,7 +350,7 @@
 
 **Exercício:**
 
-- Na variável `name` a seguir tente exibir a String contento apenas o nome e o email:
+- Na variável `name` a seguir tente exibir a String contendo apenas o nome e o email:
 
 ```js
 const name = `student: Alice; email: alice@email.com`;
@@ -370,7 +370,7 @@ const name = `The JavaScript is executed by the browser's JavaScript engine, aft
 The JS is executed by the browser's JS engine, after the HTML and CSS have been assembled and put together into a web page. This ensures that the structure and style of the page are already in place by the time the JS starts to run.
 ```
 
-- Na variável `names` a seguir tente exibir a String contento apenas os nomes e o emails:
+- Na variável `names` a seguir tente exibir a String contendo apenas os nomes e os emails:
 
 ```js
 const names = `student: Alice; email: alice@email.com
@@ -532,7 +532,7 @@ console.log(heightAvg(characters, "DC")); //=> 1.895
 **Reflexão:**
 
 - Como estruturamos dados no Javascript com JSON?
-- Como armazenamos e ler uma coleção de objetos JSON?
+- Como armazenar e ler uma coleção de objetos JSON?
 - É possível indexar dados com JSON?
 - Como manipulamos um JSON?
 - É possível obter JSON na Web?
